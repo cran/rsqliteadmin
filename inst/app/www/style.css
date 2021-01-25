@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
+body, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, .main-header .logo {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+    width: 100%;
+    color: black;
+    min-height: 110vh !important;
+}
+
+h1, h2, h3, .h1, .h2, .h3 {
+  color: #20639b;
+  font-weight: bold;
+}
+
+.wrapper {
+  overflow-x: scroll;
+}
+
+.shiny-notification {
+	position: fixed;
+	top: 87%;
+	left: 33%;
+	right: 33%;
+	opacity: 1;
+	text-align: center;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Dashboard Body */
+
+.content-wrapper {
+  background-color: #f3f3f4;
+  min-height: 110vh !important;
+}
+
+/* Dashboard Sidebar */
+
+.skin-blue .left-side, .skin-blue .main-sidebar, .skin-blue .wrapper {
+  background-color: #233646;
+}
+
+.sidebar-menu .active {
+  Background: #f3f3f4;
+}
+
+.skin-blue .sidebar-menu>li.active>a, .sidebar-menu>li[class=""]>a, .skin-blue .sidebar-menu>li:hover>a {
+    color: black;
+    background: #f3f3f4;
+    border-left-color: #2ea4fe;
+}
+
+.skin-blue .treeview-menu>li.active>a, .skin-blue {
+  color: black;
+}
+
+.skin-blue .sidebar-menu>li>.treeview-menu {
+    background: #222222;
+}
+
+.skin-blue .sidebar a {
+    color: white;
+}
+
+.skin-blue .treeview-menu>li>a {
+    color: #f3f3f4;
+}
+
+/* Dashboard Header */
+
+.skin-blue .main-header .navbar {
+    background-color: #173f5f;
+}
+
+.skin-blue .main-header .logo {
+    background-color: #173f5f;
+    color: #fff;
+}
+
+/* Navigation Bar(tabpanels) */
+
+.main-header .navbar {
+  height: 50px;
+}
+
+.main-header .logo {
+    height: 50px;
+    font-size: 25px;
+}
+
+.nav-tabs>li>a {
+    color: #20639b;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li:hover>a {
+    color: white;
+    background-color: #20639b;
+}
+
+.btn-default {
+    background-color: #20639b;
+    color: #ffffff;
+    border-color: #ddd;
+}
+
+.multicol .shiny-options-group{
+  -webkit-column-count: 5; /* Chrome, Safari, Opera */
+  -moz-column-count: 5;    /* Firefox */
+  column-count: 5;
+  -webkit-column-gap: 250px;
+  column-gap: 250px;
+  -moz-column-fill: auto;
+  -column-fill: auto;
+  /*column-rule: 4px double #ff00ff;*/
+  }
+
+.checkbox{
+  margin-top: 0px ;
+  -webkit-margin-after: 0px ;
+  padding: 4px;
+  }
+
+.shiny-input-checkboxgroup label ~ .shiny-options-group, .shiny-input-radiogroup label ~ .shiny-options-grou {
+  margin-top: 0;
+}
+
+/* mod_dashboard_structure */
+
+.shinyDirectories#dashboard_structure-set_directory {
+	color: #ffffff;
+	height: 50px;
+	background-color: #20639b;
+	border-color: #20639b;
+  border-right-color: black;
+}
+
+.shinyDirectories#export_data-save_directory {
+  color: #ffffff;
+	background-color: #20639b;
+  border-color: #20639b;
+  border-left-color: black;
+}
+
+#dashboard_structure-create_db {
+	color: #ffffff;
+	height: 50px;
+	background-color: #20639b;
+	border-color: #20639b;
+  border-right-color: black;
+}
+
+#dashboard_structure-delete_db {
+  color: #ffffff;
+	height: 50px;
+	background-color: #20639b;
+	border-color: #2e6da4;
+}
+
+#dashboard_structure-delete_db:hover {
+  background-color: #ea0000;
+}
+
+/* mod_import_new_tables */
+
+.shiny-text-output#import_tables-file_selected {
+  margin-left: 10px;
+  padding: 7px;
+}
+
+/* mod_export_data */
+
+.shiny-text-output#export_data-directory_selected {
+  margin-left: 40px;
+  padding: 7px;
+}
+
+/* mod_create_table */
+
+#create_table-create_new_table {
+  float: right;
+}
+
+/* mod_query */
+
+#query_results {
+	overflow-y: scroll;
+	overflow-x: scroll;
+}
+
+/* mod_view_tables */
+
+#display_table {
+	height: 500px;
+	overflow-y: scroll;
+	overflow-x: scroll;
+}
