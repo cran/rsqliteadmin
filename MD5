@@ -1,4 +1,4 @@
-ef0560091bce4e0bae3381f3d83075c5 *DESCRIPTION
+a96729968f23a676b020bf7eda3594c4 *DESCRIPTION
 0a71d12b49c36476240ba9c4fee1ab6b *NAMESPACE
 ed1651243fb6c90ab51484f3891951cc *R/app_config.R
 3144dd34c16a93e801d2c6f49438784f *R/app_server.R
@@ -17,16 +17,16 @@ faa981388807e64199f55a7c0d84554b *R/mod_manage_tables.R
 f530240131024e3e2ba068dcf502cb4e *R/mod_triggers.R
 51070e54c0e42b7b6bfa610344520d6f *R/mod_view_tables.R
 6ee898f4373e08102e7cf62149828aa2 *R/run_app.R
-3a5b7ec1556f578d1d70e6b4606aaaa9 *README.md
-c1d6f16f3eea6ad0d98788fcab90eff1 *build/vignette.rds
+d94c4e5ebd0bd90849cb314126b85cd5 *README.md
+3bd4fe77542689a43c3a224a64d5aef1 *build/vignette.rds
 81560d1b906a530c87fa0acbb2f5cca4 *inst/app/www/favicon.ico
 9cafec9d2ae85ce3c457413c5ba2ea6e *inst/app/www/style.css
 05655fd95fc5fb7b54eb7e1b128f8fa8 *inst/doc/rsqliteadmin.R
 b8492978d8eeeb3f2dac9d273eec482c *inst/doc/rsqliteadmin.Rmd
-620bb64ae48fa6c40cbe6e6fac04fc8c *inst/doc/rsqliteadmin.html
-af5e5fe57e8c5eee9c7d99bcd60db8b5 *inst/extdata/directory.Rdata
+087675dcb4571c4e27d0abef2c87e6af *inst/doc/rsqliteadmin.html
+5c9b6f7af6c9d1a38fdfd57c9553a160 *inst/extdata/directory.Rdata
 05731009b7266cb308aebc5844339611 *inst/extdata/recent_queries.db
 ff32a60ffe8a9412e86781fde16a771c *inst/extdata/saved_queries.db
 10c207d914ede342824b3a2c01d14bec *inst/golem-config.yml
-d1dc60f40d72bbcacb239a2fe61a9fde *man/run_rsqliteadmin.Rd
+bdcbd0618bd35c4e57b378c153190a72 *man/run_rsqliteadmin.Rd
 b8492978d8eeeb3f2dac9d273eec482c *vignettes/rsqliteadmin.Rmd
